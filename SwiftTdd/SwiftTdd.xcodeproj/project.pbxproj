@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D221E897212C59AC002FA538 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = D221E896212C59AC002FA538 /* Card.swift */; };
 		D26C45C1212B0DB6003958D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26C45C0212B0DB6003958D1 /* AppDelegate.swift */; };
 		D26C45C3212B0DB6003958D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26C45C2212B0DB6003958D1 /* ViewController.swift */; };
 		D26C45C6212B0DB6003958D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D26C45C4212B0DB6003958D1 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D221E896212C59AC002FA538 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		D26C45BD212B0DB6003958D1 /* SwiftTdd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTdd.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D26C45C0212B0DB6003958D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D26C45C2212B0DB6003958D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				D26C45C7212B0DB6003958D1 /* Assets.xcassets */,
 				D26C45C9212B0DB6003958D1 /* LaunchScreen.storyboard */,
 				D26C45CC212B0DB6003958D1 /* Info.plist */,
+				D221E896212C59AC002FA538 /* Card.swift */,
 			);
 			path = SwiftTdd;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D26C45C3212B0DB6003958D1 /* ViewController.swift in Sources */,
+				D221E897212C59AC002FA538 /* Card.swift in Sources */,
 				D26C45C1212B0DB6003958D1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
