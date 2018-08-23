@@ -100,12 +100,12 @@
 			isa = PBXGroup;
 			children = (
 				D26C45C0212B0DB6003958D1 /* AppDelegate.swift */,
-				D26C45C2212B0DB6003958D1 /* ViewController.swift */,
-				D26C45C4212B0DB6003958D1 /* Main.storyboard */,
 				D26C45C7212B0DB6003958D1 /* Assets.xcassets */,
-				D26C45C9212B0DB6003958D1 /* LaunchScreen.storyboard */,
-				D26C45CC212B0DB6003958D1 /* Info.plist */,
 				D221E896212C59AC002FA538 /* Card.swift */,
+				D26C45CC212B0DB6003958D1 /* Info.plist */,
+				D26C45C9212B0DB6003958D1 /* LaunchScreen.storyboard */,
+				D26C45C4212B0DB6003958D1 /* Main.storyboard */,
+				D26C45C2212B0DB6003958D1 /* ViewController.swift */,
 			);
 			path = SwiftTdd;
 			sourceTree = "<group>";
