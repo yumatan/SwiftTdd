@@ -46,4 +46,9 @@ class SwiftTddTests: XCTestCase {
         XCTAssertEqual(card.rank, .jack)
     }
     
+    func testCardNotation() {
+        let card = Card(suit: .heart, rank: .three)
+        XCTAssertEqual(card.notation, "3♥")
+    }
+    
 }
