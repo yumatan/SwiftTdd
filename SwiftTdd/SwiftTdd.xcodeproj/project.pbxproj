@@ -113,8 +113,8 @@
 		D26C45D4212B0DB6003958D1 /* SwiftTddTests */ = {
 			isa = PBXGroup;
 			children = (
-				D26C45D5212B0DB6003958D1 /* SwiftTddTests.swift */,
 				D26C45D7212B0DB6003958D1 /* Info.plist */,
+				D26C45D5212B0DB6003958D1 /* SwiftTddTests.swift */,
 			);
 			path = SwiftTddTests;
 			sourceTree = "<group>";
@@ -122,8 +122,8 @@
 		D26C45DF212B0DB6003958D1 /* SwiftTddUITests */ = {
 			isa = PBXGroup;
 			children = (
-				D26C45E0212B0DB6003958D1 /* SwiftTddUITests.swift */,
 				D26C45E2212B0DB6003958D1 /* Info.plist */,
+				D26C45E0212B0DB6003958D1 /* SwiftTddUITests.swift */,
 			);
 			path = SwiftTddUITests;
 			sourceTree = "<group>";
