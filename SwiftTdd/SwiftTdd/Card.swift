@@ -10,13 +10,6 @@ import Foundation
 
 struct Card: Equatable {
     
-    enum Suit: String {
-        case spade = "♠"
-        case heart = "♥"
-        case club = "♣"
-        case diamond = "♦"
-    }
-    
     enum Rank: String {
         case ace = "A"
         case two = "2"
@@ -31,6 +24,13 @@ struct Card: Equatable {
         case jack = "J"
         case queen = "Q"
         case king = "K"
+    }
+    
+    enum Suit: String {
+        case spade = "♠"
+        case heart = "♥"
+        case club = "♣"
+        case diamond = "♦"
     }
     
     let rank: Rank
