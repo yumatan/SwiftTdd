@@ -57,4 +57,17 @@ class SwiftTddTests: XCTestCase {
         XCTAssertFalse(card1.hasSameSuit(card2))
     }
     
+    func testHasSameRank() {
+        var card1: Card
+        var card2: Card
+        
+        card1 = Card(rank: .two, suit: .spade)
+        card2 = Card(rank: .two, suit: .heart)
+        XCTAssertTrue(card1.hasSameRank(card2))
+        
+        card1 = Card(rank: .ace, suit: .spade)
+        card2 = Card(rank: .two, suit: .heart)
+        XCTAssertFalse(card1.hasSameRank(card2))
+    }
+    
 }
