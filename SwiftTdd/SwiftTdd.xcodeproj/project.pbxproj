@@ -15,6 +15,7 @@
 		D26C45CB212B0DB6003958D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D26C45C9212B0DB6003958D1 /* LaunchScreen.storyboard */; };
 		D26C45D6212B0DB6003958D1 /* SwiftTddTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26C45D5212B0DB6003958D1 /* SwiftTddTests.swift */; };
 		D26C45E1212B0DB6003958D1 /* SwiftTddUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26C45E0212B0DB6003958D1 /* SwiftTddUITests.swift */; };
+		D2DA7437214017340091A409 /* Hand.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DA7436214017340091A409 /* Hand.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		D26C45DC212B0DB6003958D1 /* SwiftTddUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftTddUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D26C45E0212B0DB6003958D1 /* SwiftTddUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTddUITests.swift; sourceTree = "<group>"; };
 		D26C45E2212B0DB6003958D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2DA7436214017340091A409 /* Hand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hand.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +101,14 @@
 		D26C45BF212B0DB6003958D1 /* SwiftTdd */ = {
 			isa = PBXGroup;
 			children = (
-				D26C45C0212B0DB6003958D1 /* AppDelegate.swift */,
-				D26C45C7212B0DB6003958D1 /* Assets.xcassets */,
-				D221E896212C59AC002FA538 /* Card.swift */,
 				D26C45CC212B0DB6003958D1 /* Info.plist */,
+				D26C45C0212B0DB6003958D1 /* AppDelegate.swift */,
+				D221E896212C59AC002FA538 /* Card.swift */,
+				D2DA7436214017340091A409 /* Hand.swift */,
+				D26C45C2212B0DB6003958D1 /* ViewController.swift */,
+				D26C45C7212B0DB6003958D1 /* Assets.xcassets */,
 				D26C45C9212B0DB6003958D1 /* LaunchScreen.storyboard */,
 				D26C45C4212B0DB6003958D1 /* Main.storyboard */,
-				D26C45C2212B0DB6003958D1 /* ViewController.swift */,
 			);
 			path = SwiftTdd;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2DA7437214017340091A409 /* Hand.swift in Sources */,
 				D26C45C3212B0DB6003958D1 /* ViewController.swift in Sources */,
 				D221E897212C59AC002FA538 /* Card.swift in Sources */,
 				D26C45C1212B0DB6003958D1 /* AppDelegate.swift in Sources */,
